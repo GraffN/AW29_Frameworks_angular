@@ -5,12 +5,14 @@ import {ReactiveFormsModule} from "@angular/forms";
 import { AppComponent } from './app/app.component';
 import { LoginComponentComponent } from './components/login-component/login-component.component';
 import { DashboardPageComponent } from './pages/dashboard-page/dashboard-page.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponentComponent,
-    DashboardPageComponent
+    DashboardPageComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
